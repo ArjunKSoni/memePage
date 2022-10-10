@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: rgb(112, 112, 114);
+}
+.div{
+    height: 90vh; width:80vw; background-color:black;
+    margin-top:2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.butt{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#share, #next{
+    padding: 1vh 5vw;
+}
+.div img{
+    width: 70vw;
+    height: 80vh;
+}
